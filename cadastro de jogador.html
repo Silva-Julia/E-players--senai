@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Cadastro de Jogador </title>
+     <link rel="stylesheet" href="Style  J.css">
+</head>
+
+<body>
+    <header>
+        <div class= "container container_header">
+            <img src="assets/logo.svg" alt="Logo do E-Players" >
+            <nav id="links" class="nav_header"> 
+                <a href="#container_banner"> Início</a>
+                <a href="#cont_noticias_jogos"> Horários</a>
+                <a href="#container_participantes"> Campeonato</a>
+                <a href="#container_jogos"> Resultados</a>  
+                <a href="#cont_noticias_jogos"> Notícias</a>  
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container_jogador">
+             <h1> Cadastro de Jogador </h1>
+        </section>
+
+        <section class="container_cadastro_lista">
+            <article class="box_cadastro">
+                <div class="box_jogador">
+                    <div class="jogador">
+                        <span> Nome do jogador  </span>
+                        <form>
+                            <input class="espaço_escrever" type= "text" value="">
+                        </form>
+                    </div>
+                    <div class="e-mail">
+                        <span> E-mail </span>
+                        <form>
+                            <input class="espaço_escrever" type="text" value= "">
+                        </form>
+                    </div>
+                    <div class="senha">
+                        <span> Senha </span>
+                        <form>
+                            <input class="espaço_escrever" type="text" value= "">
+                        </form>
+                     </div>
+                     <div class="equipe">
+                        <span> Equipe </span>
+                        <form>
+                             <select id="country" name="country">
+                             <option value="se">SENAI</option>
+                             <option value="fla">Flamengo</option>
+                             <option value="cy">Cytechs</option>
+                             </select>
+                        </form>
+                     </div>
+                     <a class="cadastrar_box" href="#">CADASTRAR </a>
+                </div>
+             </article>
+             <h2> Lista de Jogadores </h2>
+             <div>
+                <table class="box_lista">
+                   <tr>
+                       <th class="escrita">Nome do Jogador </th>
+                       <th class="escrita_2">Equipe </th>
+                   </tr>
+                   <tr class="linha">
+                       <td class="linha">Thiago </td>
+                       <td class="linha_img">SENAI Cytechs</td>
+                   </tr>
+                   <tr>
+                       <td class="linha">Odirlei</td>
+                       <td class="linha_img">SENAI Cytechs</td>
+                   </tr>
+                </table>
+             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class=" container container_footer">
+            <div class="box_footer">
+                    <div class="links_uteis">
+                         <h5> Links Úteis </h5>
+                         <ul>
+                             <li> regras de utilização </li>
+                             <li> suporte </li>
+                             <li> central de ajuda </li>
+                             <li> contato </li>
+                         </ul>
+                     </div>
+
+                    <div class="paginas">
+                         <h5> Páginas</h5>
+                         <ul>
+                             <li> início </li>
+                             <li> campeonatos </li>
+                             <li> resultados </li>
+                             <li> notícias </li>
+                             <li> login/cadastro </li>
+                         </ul>
+                    </div>
+                <img  class="logo_footer"src="assets/logo 3.png" alt="E-Players">
+                <div class="box_2">
+                    <div class="parte_cadastrar">
+                        <span> Faça parte do nosso clan, assine nossa newsletter!</span>
+                        <form class="nav_footer">
+                            <input class="e_mail" type= "nav" value="E-mail">
+                            <button class="cadastrar"> Cadastrar</button> 
+                        </form>
+                    </div>
+                    <div class="redes_sociais">
+                       <h5> Siga-nos em:</h5>
+                       <img src="assets/instagram 1.png" alt="Instagram">
+                       <img src="assets/facebook 1.png" alt="Facebook">
+                       <img src="assets/youtube 1.png" alt="Youtube">
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -80,16 +80,17 @@ h1{
    margin-left: 43px;
 }
 
-.escrita_banner input{
+.cadastrar_banner{
    color:white;
-   font-size: 24px;
+   font-size: 27px;
    background-color: #EB2D2D;
    border-radius: 4px;
-    margin-left: 178px;
-    height: 48px;
-    width: 194px;
+    margin-left: 150px;
+    height: 63px;
+    width: 213px;
     display: grid;
-    margin-top: 33px;
+    margin-top: 48px;
+    padding: 14px;
 }
 
 .container_games{
