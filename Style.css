@@ -64,7 +64,7 @@
 
 .escrita_banner{
     padding-left: 119px;
-    margin-top: 149px;
+    margin-top: 95px;;
 }
 
 h1{
@@ -84,6 +84,19 @@ h1{
    color:white;
    font-size: 27px;
    background-color: #EB2D2D;
+   border-radius: 4px;
+    margin-left: 150px;
+    height: 63px;
+    width: 213px;
+    display: grid;
+    margin-top: 48px;
+    padding: 14px;
+}
+
+.cad_banner{
+   color:white;
+   font-size: 27px;
+   background-color: #001F70;
    border-radius: 4px;
     margin-left: 150px;
     height: 63px;
